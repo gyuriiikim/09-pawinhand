@@ -1,0 +1,123 @@
+#header_bg {
+  background-color: #eee;
+}
+#header_bg header {
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background: aqua;
+  height: 70px;
+}
+#header_bg header nav {
+  background: yellow;
+}
+#header_bg header nav a {
+  margin-left: 16px;
+}
+#header_bg header nav a:first-child {
+  margin: 0;
+}
+
+#slide_wrap {
+  margin: 0 auto;
+  width: 1200px;
+  position: relative;
+}
+#slide_wrap .slide_container .slide {
+  display: none;
+}
+#slide_wrap .slide_container .slide1 {
+  display: block;
+}
+#slide_wrap .prev, #slide_wrap .next {
+  position: absolute;
+}
+#slide_wrap .prev {
+  left: 20px;
+  top: 50%;
+}
+#slide_wrap .next {
+  right: 20px;
+  top: 50%;
+}
+#slide_wrap .pagenation {
+  background: brown;
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  width: 100%;
+  text-align: center;
+}
+#slide_wrap .pagenation a {
+  background: #ccc;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: inline-block;
+  text-indent: -9999px;
+  margin-right: 16px;
+}
+#slide_wrap .pagenation a.active {
+  background: #fff;
+}
+#slide_wrap .pagenation a:last-child {
+  margin: 0;
+}
+#gallery_wrap {
+  background: lime;
+  padding: 50px 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 1200px;
+}
+#gallery_wrap .gallery {
+  width: 100px;
+  height: 100px;
+}
+#gallery_wrap .gallery img {
+  width: 100%;
+}
+#gallery_wrap .g5 {
+  width: 200px;
+  height: 200px;
+}
+
+#bnr_wrap {
+  background: #222;
+  padding: 50px 0;
+}
+#bnr_wrap span {
+  color: #fff;
+  font-size: 1.375rem;
+  display: block;
+  text-align: center;
+}
+
+#card_wrap {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 1200px;
+  padding: 50px 0;
+}
+#card_wrap .card {
+  background: #eee;
+  width: 20%;
+}
+#card_wrap .card .photo img {
+  width: 100%;
+}
+#card_wrap .card h2 {
+  margin: 20px 10px 30px 10px;
+}
+#card_wrap .card p {
+  margin: 20px 10px 30px 10px;
+}/*# sourceMappingURL=style.css.map */
